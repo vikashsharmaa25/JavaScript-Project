@@ -4,16 +4,19 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
-    <title>Document</title>
+    <title>StopWatch</title>
   </head>
   <body>
     <div class="container">
       <div class="inner-container">
-        <h1 id="date">Date</h1>
-        <h1 id="clock">12 : 12 : 12</h1>
+        <h1 id="timer">00 : 00 : 00</h1>
+        <div class="btn">
+          <button onclick="start()">Start</button>
+          <button onclick="stop()">Stop</button>
+          <button onclick="reset()">Reset</button>
+        </div>
       </div>
     </div>
-
-    <script src="./script.js"></script>
+    <script src="script.js"></script>
   </body>
 </html>

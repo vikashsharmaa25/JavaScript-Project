@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    background: #2e2e2e;
+    width: 100vw;
+    height: 100vh;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inner-container {
+    padding: 15px;
+}
+.inner-container h1{
+    font-size: 100px;
+    padding: 10px;
+}
+.btn { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.btn button {
+    padding: 10px 15px;
+    cursor: pointer;
+}
