@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    background: #2e2e2e;
+    width: 100vw;
+    height: 100vh;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.inner-container {
+    padding: 15px;
+    
+}
+h1{
+    text-align: center;
+}
+
+#inputElement{
+    width: 100%;
+    padding: 4px;
+    background: transparent;
+    margin: 10px 0px;
+    color: white;
+    font-size: 18px;
+   
+}
+
+button{
+    padding: 4px;
+    cursor: pointer;
+    width: 100%;
+}
+button:hover {
+    background-color: aquamarine;
+   
+}
+h2{
+    font-size: 18px;
+}
